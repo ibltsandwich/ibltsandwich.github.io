@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -236,6 +237,24 @@ input, select, textarea {
 		text-align: right;
 	}
 
+.decypher-links {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
+}
+
+.dollarel-links {
+	text-align:center;
+	list-style: none;
+	padding: 0;
+}
+
+.dollarel-links li {
+	padding: 0;
+}
 /* Row */
 
 	.row {
