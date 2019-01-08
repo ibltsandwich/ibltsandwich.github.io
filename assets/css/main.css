@@ -2799,8 +2799,7 @@ input, select, textarea {
 		}
 
 		.project-logo {
-			width: 85%;
-			height: 40%;
+			width: 100%;
 			margin-bottom: 1em;
 		}
 
@@ -2808,13 +2807,17 @@ input, select, textarea {
 			display: flex;
 			flex-direction: row;
 			list-style: none;
-			margin-bottom: 0;
+			width: 80%;
+			padding: 0;
+			position: absolute;
+			bottom: 0;
+			margin: 1em 0;
 		}
 
 		.project-info {
 			margin-top: 1em;
 			margin-bottom: 0;
-			height: 6em;
+			height: 13em;
 		}
 
 		.features li {
@@ -2877,6 +2880,10 @@ input, select, textarea {
 		cursor: default;
 	}
 
+	#main-info {
+		font-weight: 600;
+	}
+
 		.statistics li {
 			-moz-flex: 1;
 			-webkit-flex: 1;
@@ -2888,6 +2895,11 @@ input, select, textarea {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			position: relative;
+		}
+
+		.project-links li {
+			padding: 0;
 		}
 
 			.statistics li.style1 {
@@ -2970,7 +2982,7 @@ input, select, textarea {
 				}
 
 				.statistics li strong, .statistics li b {
-					font-size: 2.5em;
+					font-size: 2em;
 				}
 
 		}
