@@ -1,1 +1,1 @@
-(Live Link)[https://ibltsandwich.github.io/]
+[Live Link](https://ibltsandwich.github.io/)
