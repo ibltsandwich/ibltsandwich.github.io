@@ -2620,6 +2620,11 @@ input, select, textarea {
 		border: none;
 	}
 
+	.resume-img {
+		border: 1px inset #e37682;
+		height: 250px;
+	}
+
 	header.major {
 		margin-bottom: 3em;
 	}
