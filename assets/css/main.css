@@ -2616,6 +2616,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.resume-link {
+		border: none;
+	}
+
 	header.major {
 		margin-bottom: 3em;
 	}
