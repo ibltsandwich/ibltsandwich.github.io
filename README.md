@@ -1,3 +1,3 @@
 ## Welcome to my portfolio site!
 
-[Here's a Live Link](www.brian-lee.me)
+[Here's a Live Link](brian-lee.me)
