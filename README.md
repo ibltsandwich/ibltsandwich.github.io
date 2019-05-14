@@ -1,3 +1,3 @@
 ## Welcome to my portfolio site!
 
-[Here's a Live Link](https://ibltsandwich.github.io/)
+[Here's a Live Link](www.brian-lee.me)
