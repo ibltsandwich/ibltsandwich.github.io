@@ -317,6 +317,7 @@ h3.subicon-text {
   margin-bottom: 15px;
   color:white;
   text-align: center;
+  padding: 0 10px;
 }
 
 .portfolio-section {
@@ -327,18 +328,18 @@ h3.subicon-text {
 
 .project-title {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   font-weight: 600;
 }
 
 .project-summary {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 0;
 }
 
 .project-details {
-  font-size: 12px;
+  font-size: 14px;
   padding: 10px 0;
 }
 
@@ -364,6 +365,8 @@ h3.subicon-text {
   font-size: 50px;
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .personal-links li {
@@ -488,6 +491,9 @@ a, a:hover {
 @media (min-width: 451px) and (max-width: 900px) {
   .section-title {
     margin-bottom: 15px;
+  }
+
+  .portfolio-box {
   }
 }
 
