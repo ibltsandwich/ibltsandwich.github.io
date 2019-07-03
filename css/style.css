@@ -204,9 +204,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .botm-line {
   background-color: #2b2b2b;
-  width: 34px;
+  width: 183px;
   height: 3px;
   display: inline-block;
+}
+
+.profile-pic {
+  width: 183px;
+  margin-bottom: 20px;
 }
 
 .section-title:hover .botm-line {
