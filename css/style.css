@@ -53,10 +53,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: RGBA(0, 0, 0, 0.41);
 }
 
-.fas {
-  font-size: 36px;
-}
-
 .nav>li>a {
   padding: 0px;
 }
@@ -245,17 +241,6 @@ p {
   color: #888;
 }
 
-.icon {
-  position: relative;
-  height: 48px;
-  width: 48px;
-  float: left;
-  margin-top: 14px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-}
-
 .icon i {
   font-size: 36px;
 }
@@ -286,8 +271,22 @@ h3.subicon-text {
   font-size: 16px;
 }
 
+.subicon {
+  width: 50px;
+  text-align: center;
+}
+
+.subicon i {
+  font-size: 36px;
+}
+
 .category-header {
   display: flex;
+  padding: 10px 0;
+}
+
+.category {
+  padding: 10px 0;
 }
 
 .subitem {
@@ -295,6 +294,10 @@ h3.subicon-text {
   flex-direction: row;
   align-items: center;
   margin-left: 75px;
+}
+
+.txt-para {
+  padding: 10px 0;
 }
 
 /****/
