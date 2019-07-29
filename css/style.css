@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: RGBA(0, 0, 0, 0.41);
 }
 
+.fas {
+  font-size: 36px;
+}
+
 .nav>li>a {
   padding: 0px;
 }
@@ -61,6 +65,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px;
   height: inherit;
   font-family: 'Lato', sans-serif;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-default .navbar-brand {
@@ -214,6 +223,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
+.section-title {
+  text-align: center;
+}
+
 .section-title:hover .botm-line {
   width: 70px;
   /* For Safari 3.1 to 6.0 */
@@ -244,7 +257,7 @@ p {
 }
 
 .icon i {
-  font-size: 35px;
+  font-size: 36px;
 }
 
 .icon2 i{
@@ -260,23 +273,28 @@ p {
 }
 
 .icon-text {
-  margin-left: 73px;
-  padding: 0px 25px 25px 0px;
-}
-
-.icon2 {
-  position: absolute;
-  display: flex;
-  justify-content: center;
+  padding: 25px 0;
 }
 
 h3.txt-tl {
   font-size: 24px;
   line-height: 1.35;
+  margin: 0 25px;
 }
 
 h3.subicon-text {
   font-size: 16px;
+}
+
+.category-header {
+  display: flex;
+}
+
+.subitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 75px;
 }
 
 /****/
@@ -515,6 +533,7 @@ a, a:hover {
   }
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   }
+
   .top-title {
     font-size: 15px;
   }
